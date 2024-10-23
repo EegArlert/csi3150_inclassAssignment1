@@ -1,0 +1,127 @@
+* {
+    --font-color-black: rgb(0, 0, 0);
+    --font-color-light-gray: rgb(164, 164, 164);
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    padding: 0;
+    
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    color: var(--font-color-light-gray);
+    padding: 0;
+    
+}
+
+p {
+    font-size: 14px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+/* Body styling starts */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* Body styling ends */
+
+/* Product Card styling starts */
+.product-card {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    top: 120px;
+}
+/* Product Card styling ends */
+
+/* Product Card LEFT COLUMN styling starts */
+.product-card .left-img-col {
+    width: 50%;
+    overflow: hidden;
+}
+
+.product-card .left-img-col img{
+    width: 100%;
+    position: relative;
+    bottom: 22px;
+    
+}
+/* Product Card LEFT COLUMN styling ends */
+
+/* Product Card RIGHT COLUMN styling ends */
+.product-card .right-info-col {
+    width: 50%;
+    padding: 20px;
+}
+
+.product-card .available-colors {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    right: 7px;
+}
+
+.product-card .available-colors span:nth-last-child(-n + 3) {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.product-card .available-colors .black-color-container {
+    background-color: black;   
+    
+}
+
+.product-card .available-colors .red-color-container {
+    background-color: red;
+    
+}
+
+.product-card .available-colors .white-color-container {
+    background-color: beige;
+}
+
+.product-card .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 0 10px;
+}
+
+
+/* Product Card RIGHT COLUMN styling ends */
+
+
